@@ -1,0 +1,10 @@
+body{
+	background-color: blue;
+	color: red;
+}
+
+h1{
+	color: red;
+	background-color: salmon;
+	display: inline-block;
+}
