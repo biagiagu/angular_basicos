@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { PruebaAgustinComponent } from './heroes/prueba-agustin/prueba-agustin.component';
 import { HeroModule } from './heroes/heroes.modules';
 import { ContadoresModule } from './contadores/contadores.module';
+import { DbzModule } from './dbz/dbz.module';
 
 
 @NgModule({
@@ -21,7 +22,9 @@ import { ContadoresModule } from './contadores/contadores.module';
   imports: [
     BrowserModule,
     HeroModule,
-    ContadoresModule
+    ContadoresModule,
+    DbzModule
+  
     
   ],
   providers: [],
