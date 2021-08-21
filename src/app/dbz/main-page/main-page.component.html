@@ -3,15 +3,9 @@
 
 <div class="row">
     <div class="col">
-        <h3>Personajes</h3>
-        <hr>
-        <ul>
-            <li *ngFor="let personaje of personajes">
-                {{personaje.nombre}} - {{personaje.poder | number}}
-            </li>
-            <li>Agregando a: {{nuevo.nombre}}</li>
-            
-        </ul>
+        <app-personajes [personajes]="personajes" [nuevo]="nuevo">
+        </app-personajes>
+        
     </div>
     <div class="col">
 
